@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import com.wqj.usercenter.R
 import kotlinx.android.synthetic.main.activity_register.*
+import org.jetbrains.anko.toast
 
 class RegisterActivity : AppCompatActivity() {
 
@@ -11,7 +12,7 @@ class RegisterActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
         mBtnRegister.setOnClickListener {
-
+            toast("测试")
         }
     }
 }
